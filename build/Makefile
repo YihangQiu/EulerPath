@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PA1
+# Target rules for targets named solution
 
 # Build rule for target.
-PA1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PA1
-.PHONY : PA1
+solution: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 solution
+.PHONY : solution
 
 # fast build rule for target.
-PA1/fast:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/build
-.PHONY : PA1/fast
+solution/fast:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/build
+.PHONY : solution/fast
 
 src/Euler.o: src/Euler.cpp.o
 
@@ -129,7 +129,7 @@ src/Euler.o: src/Euler.cpp.o
 
 # target to build an object file
 src/Euler.cpp.o:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Euler.cpp.o
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.o
 .PHONY : src/Euler.cpp.o
 
 src/Euler.i: src/Euler.cpp.i
@@ -138,7 +138,7 @@ src/Euler.i: src/Euler.cpp.i
 
 # target to preprocess a source file
 src/Euler.cpp.i:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Euler.cpp.i
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.i
 .PHONY : src/Euler.cpp.i
 
 src/Euler.s: src/Euler.cpp.s
@@ -147,7 +147,7 @@ src/Euler.s: src/Euler.cpp.s
 
 # target to generate assembly for a file
 src/Euler.cpp.s:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Euler.cpp.s
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.s
 .PHONY : src/Euler.cpp.s
 
 src/Inout.o: src/Inout.cpp.o
@@ -156,7 +156,7 @@ src/Inout.o: src/Inout.cpp.o
 
 # target to build an object file
 src/Inout.cpp.o:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Inout.cpp.o
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.o
 .PHONY : src/Inout.cpp.o
 
 src/Inout.i: src/Inout.cpp.i
@@ -165,7 +165,7 @@ src/Inout.i: src/Inout.cpp.i
 
 # target to preprocess a source file
 src/Inout.cpp.i:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Inout.cpp.i
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.i
 .PHONY : src/Inout.cpp.i
 
 src/Inout.s: src/Inout.cpp.s
@@ -174,7 +174,7 @@ src/Inout.s: src/Inout.cpp.s
 
 # target to generate assembly for a file
 src/Inout.cpp.s:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Inout.cpp.s
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.s
 .PHONY : src/Inout.cpp.s
 
 src/People.o: src/People.cpp.o
@@ -183,7 +183,7 @@ src/People.o: src/People.cpp.o
 
 # target to build an object file
 src/People.cpp.o:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/People.cpp.o
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.o
 .PHONY : src/People.cpp.o
 
 src/People.i: src/People.cpp.i
@@ -192,7 +192,7 @@ src/People.i: src/People.cpp.i
 
 # target to preprocess a source file
 src/People.cpp.i:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/People.cpp.i
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.i
 .PHONY : src/People.cpp.i
 
 src/People.s: src/People.cpp.s
@@ -201,7 +201,7 @@ src/People.s: src/People.cpp.s
 
 # target to generate assembly for a file
 src/People.cpp.s:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/People.cpp.s
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.s
 .PHONY : src/People.cpp.s
 
 src/Relationship.o: src/Relationship.cpp.o
@@ -210,7 +210,7 @@ src/Relationship.o: src/Relationship.cpp.o
 
 # target to build an object file
 src/Relationship.cpp.o:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Relationship.cpp.o
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.o
 .PHONY : src/Relationship.cpp.o
 
 src/Relationship.i: src/Relationship.cpp.i
@@ -219,7 +219,7 @@ src/Relationship.i: src/Relationship.cpp.i
 
 # target to preprocess a source file
 src/Relationship.cpp.i:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Relationship.cpp.i
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.i
 .PHONY : src/Relationship.cpp.i
 
 src/Relationship.s: src/Relationship.cpp.s
@@ -228,7 +228,7 @@ src/Relationship.s: src/Relationship.cpp.s
 
 # target to generate assembly for a file
 src/Relationship.cpp.s:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/Relationship.cpp.s
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.s
 .PHONY : src/Relationship.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -237,7 +237,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -246,7 +246,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -255,7 +255,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/PA1.dir/build.make CMakeFiles/PA1.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -266,7 +266,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... PA1"
+	@echo "... solution"
 	@echo "... src/Euler.o"
 	@echo "... src/Euler.i"
 	@echo "... src/Euler.s"

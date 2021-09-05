@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/PA1.dir/src/Euler.cpp.o CMakeFiles/PA1.dir/src/Inout.cpp.o CMakeFiles/PA1.dir/src/People.cpp.o CMakeFiles/PA1.dir/src/Relationship.cpp.o CMakeFiles/PA1.dir/src/main.cpp.o  -o PA1 

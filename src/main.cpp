@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-    printf("*******usage : ./PA1 [0-6]********* \n");
-    printf("*******example: ./PA1 0 ********\n\n");
+    // printf("*******usage : ./PA1 [0-6]********* \n");
+    // printf("*******example: ./PA1 0 ********\n\n");
     int start = atoi(argv[1]);
 
     People people;
