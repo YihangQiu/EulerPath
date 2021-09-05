@@ -1,21 +1,21 @@
 #include "Euler.h"
 #include <iostream>
 
-bool Euler::isEulerPath(Relationship &R)
+bool Euler::isEulerPath(People &P)
 {
     vector<vector<int>> E;
     vector<int> e;
     int inDegree = 0, outDegree = 0;
     int count = 0;
-    while (count != R.getRelationSize())
+    while (count != P.getRelationSize())
     {
-        for (int i = 0; i != R.getRelationSize(); ++i)
+        for (int i = 0; i != P.getRelationSize(); ++i)
         {
-            if (R.getRelation2D(count, i) == 1)
+            if (P.getRelation2D(count, i) == 1)
             {
                 ++outDegree;
             }
-            if (R.getRelation2D(i, count) == 1)
+            if (P.getRelation2D(i, count) == 1)
             {
                 ++inDegree;
             }
@@ -74,15 +74,15 @@ bool Euler::isEulerPath(Relationship &R)
     }
 }
 
-void Euler::findEulerPath(Relationship &R, const int &startPoint)
+void Euler::findEulerPath(People &P, const int &startPoint)
 {
     for (size_t i = 0; i != 7; ++i)
     {
-        if (R.getRelation2D(startPoint, i))
+        if (P.getRelation2D(startPoint, i))
         {
-            R.setRelation2D(startPoint, i);
-            R.setRelation2D(i, startPoint);
-            findEulerPath(R, i);
+            P.setRelation2D(startPoint, i);
+            P.setRelation2D(i, startPoint);
+            findEulerPath(P, i);
         }
     }
     result.push(startPoint);

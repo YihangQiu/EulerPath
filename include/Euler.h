@@ -1,6 +1,5 @@
 #ifndef PA1_EULER_H
 #define PA1_EULER_h
-#include "Relationship.h"
 #include "People.h"
 #include <stack>
 using std::stack;
@@ -14,8 +13,8 @@ private:
 public:
     Euler() = default;
     ~Euler() = default;
-    bool isEulerPath(Relationship &);
-    void findEulerPath(Relationship &, const int &);
+    bool isEulerPath(People &);
+    void findEulerPath(People &, const int &);
     void printEulerPath(People &);
     void printNamePath(People &);
 };

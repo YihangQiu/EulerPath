@@ -4,8 +4,6 @@
 #include <string>
 #include <vector>
 #include "People.h"
-#include "Relationship.h"
-
 
 
 class Inout
@@ -18,7 +16,7 @@ private:
 public:
     Inout() = default;
     ~Inout() = default;
-    void readInfo(People&,Relationship&);
+    void readInfo(People&);
 };
 
 #endif

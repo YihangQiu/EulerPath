@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yhqiu/pa1/src/Euler.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/Euler.cpp.o"
   "/home/yhqiu/pa1/src/Inout.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/Inout.cpp.o"
   "/home/yhqiu/pa1/src/People.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/People.cpp.o"
-  "/home/yhqiu/pa1/src/Relationship.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/Relationship.cpp.o"
   "/home/yhqiu/pa1/src/main.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

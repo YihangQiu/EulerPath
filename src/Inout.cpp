@@ -4,14 +4,13 @@
 #include <fstream>
 #include <assert.h>
 #include "People.h"
-#include "Relationship.h"
 
 using std::cout;
 using std::endl;
 using std::ifstream;
 using std::string;
 
-void Inout::readInfo(People &P, Relationship &R)
+void Inout::readInfo(People &P)
 {
     ifstream inFile1;
     inFile1.open("/home/yhqiu/pa1/testcase/people.txt");
@@ -33,11 +32,11 @@ void Inout::readInfo(People &P, Relationship &R)
         {
             if (a == '0' || a == '1')
             {
-                R.relationInfo.push_back(a - 48);
+                P.relationInfo.push_back(a - 48);
             }
         }
-        R.trans2D(R.relationInfo);
-        R.relationInfo.clear();
+        P.trans2D(P.relationInfo);
+        P.relationInfo.clear();
     }
     inFile2.close();
 }

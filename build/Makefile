@@ -204,33 +204,6 @@ src/People.cpp.s:
 	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.s
 .PHONY : src/People.cpp.s
 
-src/Relationship.o: src/Relationship.cpp.o
-
-.PHONY : src/Relationship.o
-
-# target to build an object file
-src/Relationship.cpp.o:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.o
-.PHONY : src/Relationship.cpp.o
-
-src/Relationship.i: src/Relationship.cpp.i
-
-.PHONY : src/Relationship.i
-
-# target to preprocess a source file
-src/Relationship.cpp.i:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.i
-.PHONY : src/Relationship.cpp.i
-
-src/Relationship.s: src/Relationship.cpp.s
-
-.PHONY : src/Relationship.s
-
-# target to generate assembly for a file
-src/Relationship.cpp.s:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Relationship.cpp.s
-.PHONY : src/Relationship.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -276,9 +249,6 @@ help:
 	@echo "... src/People.o"
 	@echo "... src/People.i"
 	@echo "... src/People.s"
-	@echo "... src/Relationship.o"
-	@echo "... src/Relationship.i"
-	@echo "... src/Relationship.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

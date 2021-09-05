@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 ../include/Euler.h
-Relationship.h
-../include/Relationship.h
 People.h
 ../include/People.h
 stack
@@ -21,16 +19,8 @@ vector
 -
 People.h
 ../include/People.h
-Relationship.h
-../include/Relationship.h
 
 ../include/People.h
-vector
--
-string
--
-
-../include/Relationship.h
 vector
 -
 string
@@ -55,18 +45,12 @@ assert.h
 -
 People.h
 /home/yhqiu/pa1/src/People.h
-Relationship.h
-/home/yhqiu/pa1/src/Relationship.h
 
 /home/yhqiu/pa1/src/People.cpp
 People.h
 /home/yhqiu/pa1/src/People.h
 iostream
 -
-
-/home/yhqiu/pa1/src/Relationship.cpp
-Relationship.h
-/home/yhqiu/pa1/src/Relationship.h
 
 /home/yhqiu/pa1/src/main.cpp
 iostream

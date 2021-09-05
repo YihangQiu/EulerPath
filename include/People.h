@@ -7,6 +7,7 @@ using namespace std;
 class People
 {
 private:
+    vector<vector<int>> relation2D;
 
 public:
     vector<string> peopleInfo;
@@ -17,9 +18,26 @@ public:
     vector<string> allYear;
     People() = default;
     ~People() = default;
+
+    vector<int> relationInfo;
+    void trans2D(vector<int> v)
+    {
+        relation2D.push_back(v);
+    }
+    int getRelation2D(int a, int b)
+    {
+        return relation2D[a][b];
+    }
+    int setRelation2D(int a, int b)
+    {
+        return relation2D[a][b] = 0;
+    }
+    size_t getRelationSize()
+    {
+        return relation2D.size();
+    }
+
 };
-
-
 
 
 #endif //People.h

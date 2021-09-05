@@ -2,11 +2,11 @@ cmake_minimum_required (VERSION 3.16.3)
 
 project (solution)
 
-#Bring the headers, such as HelloWorld.h into the project
+#Bring the headers(*.h) into the project
 include_directories(include)
 
-#However, the file(GLOB ...) allows for wildcard additions:
+#Bring the source codes(*.cpp) into the project
 file(GLOB SOURCES "src/*.cpp")
 
-#指定生成目标
+#Specify build target
 add_executable(solution ${SOURCES})

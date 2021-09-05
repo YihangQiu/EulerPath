@@ -4,23 +4,17 @@
 CMakeFiles/solution.dir/src/Euler.cpp.o
  ../include/Euler.h
  ../include/People.h
- ../include/Relationship.h
  /home/yhqiu/pa1/src/Euler.cpp
 CMakeFiles/solution.dir/src/Inout.cpp.o
  ../include/Euler.h
  ../include/Inout.h
  ../include/People.h
- ../include/Relationship.h
  /home/yhqiu/pa1/src/Inout.cpp
 CMakeFiles/solution.dir/src/People.cpp.o
  ../include/People.h
  /home/yhqiu/pa1/src/People.cpp
-CMakeFiles/solution.dir/src/Relationship.cpp.o
- ../include/Relationship.h
- /home/yhqiu/pa1/src/Relationship.cpp
 CMakeFiles/solution.dir/src/main.cpp.o
  ../include/Euler.h
  ../include/Inout.h
  ../include/People.h
- ../include/Relationship.h
  /home/yhqiu/pa1/src/main.cpp
