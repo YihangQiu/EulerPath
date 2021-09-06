@@ -57,48 +57,22 @@ include CMakeFiles/solution.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/solution.dir/flags.make
 
-CMakeFiles/solution.dir/src/Euler.cpp.o: CMakeFiles/solution.dir/flags.make
-CMakeFiles/solution.dir/src/Euler.cpp.o: ../src/Euler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solution.dir/src/Euler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/Euler.cpp.o -c /home/yhqiu/pa1/src/Euler.cpp
+CMakeFiles/solution.dir/src/euler.cpp.o: CMakeFiles/solution.dir/flags.make
+CMakeFiles/solution.dir/src/euler.cpp.o: ../src/euler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solution.dir/src/euler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/euler.cpp.o -c /home/yhqiu/pa1/src/euler.cpp
 
-CMakeFiles/solution.dir/src/Euler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solution.dir/src/Euler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqiu/pa1/src/Euler.cpp > CMakeFiles/solution.dir/src/Euler.cpp.i
+CMakeFiles/solution.dir/src/euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solution.dir/src/euler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqiu/pa1/src/euler.cpp > CMakeFiles/solution.dir/src/euler.cpp.i
 
-CMakeFiles/solution.dir/src/Euler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/Euler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/Euler.cpp -o CMakeFiles/solution.dir/src/Euler.cpp.s
-
-CMakeFiles/solution.dir/src/Inout.cpp.o: CMakeFiles/solution.dir/flags.make
-CMakeFiles/solution.dir/src/Inout.cpp.o: ../src/Inout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solution.dir/src/Inout.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/Inout.cpp.o -c /home/yhqiu/pa1/src/Inout.cpp
-
-CMakeFiles/solution.dir/src/Inout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solution.dir/src/Inout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqiu/pa1/src/Inout.cpp > CMakeFiles/solution.dir/src/Inout.cpp.i
-
-CMakeFiles/solution.dir/src/Inout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/Inout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/Inout.cpp -o CMakeFiles/solution.dir/src/Inout.cpp.s
-
-CMakeFiles/solution.dir/src/People.cpp.o: CMakeFiles/solution.dir/flags.make
-CMakeFiles/solution.dir/src/People.cpp.o: ../src/People.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solution.dir/src/People.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/People.cpp.o -c /home/yhqiu/pa1/src/People.cpp
-
-CMakeFiles/solution.dir/src/People.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solution.dir/src/People.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqiu/pa1/src/People.cpp > CMakeFiles/solution.dir/src/People.cpp.i
-
-CMakeFiles/solution.dir/src/People.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/People.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/People.cpp -o CMakeFiles/solution.dir/src/People.cpp.s
+CMakeFiles/solution.dir/src/euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/euler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/euler.cpp -o CMakeFiles/solution.dir/src/euler.cpp.s
 
 CMakeFiles/solution.dir/src/main.cpp.o: CMakeFiles/solution.dir/flags.make
 CMakeFiles/solution.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/solution.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solution.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/main.cpp.o -c /home/yhqiu/pa1/src/main.cpp
 
 CMakeFiles/solution.dir/src/main.cpp.i: cmake_force
@@ -109,23 +83,34 @@ CMakeFiles/solution.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/main.cpp -o CMakeFiles/solution.dir/src/main.cpp.s
 
+CMakeFiles/solution.dir/src/people.cpp.o: CMakeFiles/solution.dir/flags.make
+CMakeFiles/solution.dir/src/people.cpp.o: ../src/people.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solution.dir/src/people.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solution.dir/src/people.cpp.o -c /home/yhqiu/pa1/src/people.cpp
+
+CMakeFiles/solution.dir/src/people.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solution.dir/src/people.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqiu/pa1/src/people.cpp > CMakeFiles/solution.dir/src/people.cpp.i
+
+CMakeFiles/solution.dir/src/people.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solution.dir/src/people.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqiu/pa1/src/people.cpp -o CMakeFiles/solution.dir/src/people.cpp.s
+
 # Object files for target solution
 solution_OBJECTS = \
-"CMakeFiles/solution.dir/src/Euler.cpp.o" \
-"CMakeFiles/solution.dir/src/Inout.cpp.o" \
-"CMakeFiles/solution.dir/src/People.cpp.o" \
-"CMakeFiles/solution.dir/src/main.cpp.o"
+"CMakeFiles/solution.dir/src/euler.cpp.o" \
+"CMakeFiles/solution.dir/src/main.cpp.o" \
+"CMakeFiles/solution.dir/src/people.cpp.o"
 
 # External object files for target solution
 solution_EXTERNAL_OBJECTS =
 
-solution: CMakeFiles/solution.dir/src/Euler.cpp.o
-solution: CMakeFiles/solution.dir/src/Inout.cpp.o
-solution: CMakeFiles/solution.dir/src/People.cpp.o
+solution: CMakeFiles/solution.dir/src/euler.cpp.o
 solution: CMakeFiles/solution.dir/src/main.cpp.o
+solution: CMakeFiles/solution.dir/src/people.cpp.o
 solution: CMakeFiles/solution.dir/build.make
 solution: CMakeFiles/solution.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable solution"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yhqiu/pa1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable solution"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/solution.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

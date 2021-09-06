@@ -123,86 +123,32 @@ solution/fast:
 	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/build
 .PHONY : solution/fast
 
-src/Euler.o: src/Euler.cpp.o
+src/euler.o: src/euler.cpp.o
 
-.PHONY : src/Euler.o
-
-# target to build an object file
-src/Euler.cpp.o:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.o
-.PHONY : src/Euler.cpp.o
-
-src/Euler.i: src/Euler.cpp.i
-
-.PHONY : src/Euler.i
-
-# target to preprocess a source file
-src/Euler.cpp.i:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.i
-.PHONY : src/Euler.cpp.i
-
-src/Euler.s: src/Euler.cpp.s
-
-.PHONY : src/Euler.s
-
-# target to generate assembly for a file
-src/Euler.cpp.s:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Euler.cpp.s
-.PHONY : src/Euler.cpp.s
-
-src/Inout.o: src/Inout.cpp.o
-
-.PHONY : src/Inout.o
+.PHONY : src/euler.o
 
 # target to build an object file
-src/Inout.cpp.o:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.o
-.PHONY : src/Inout.cpp.o
+src/euler.cpp.o:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/euler.cpp.o
+.PHONY : src/euler.cpp.o
 
-src/Inout.i: src/Inout.cpp.i
+src/euler.i: src/euler.cpp.i
 
-.PHONY : src/Inout.i
-
-# target to preprocess a source file
-src/Inout.cpp.i:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.i
-.PHONY : src/Inout.cpp.i
-
-src/Inout.s: src/Inout.cpp.s
-
-.PHONY : src/Inout.s
-
-# target to generate assembly for a file
-src/Inout.cpp.s:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/Inout.cpp.s
-.PHONY : src/Inout.cpp.s
-
-src/People.o: src/People.cpp.o
-
-.PHONY : src/People.o
-
-# target to build an object file
-src/People.cpp.o:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.o
-.PHONY : src/People.cpp.o
-
-src/People.i: src/People.cpp.i
-
-.PHONY : src/People.i
+.PHONY : src/euler.i
 
 # target to preprocess a source file
-src/People.cpp.i:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.i
-.PHONY : src/People.cpp.i
+src/euler.cpp.i:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/euler.cpp.i
+.PHONY : src/euler.cpp.i
 
-src/People.s: src/People.cpp.s
+src/euler.s: src/euler.cpp.s
 
-.PHONY : src/People.s
+.PHONY : src/euler.s
 
 # target to generate assembly for a file
-src/People.cpp.s:
-	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/People.cpp.s
-.PHONY : src/People.cpp.s
+src/euler.cpp.s:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/euler.cpp.s
+.PHONY : src/euler.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -231,6 +177,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/people.o: src/people.cpp.o
+
+.PHONY : src/people.o
+
+# target to build an object file
+src/people.cpp.o:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/people.cpp.o
+.PHONY : src/people.cpp.o
+
+src/people.i: src/people.cpp.i
+
+.PHONY : src/people.i
+
+# target to preprocess a source file
+src/people.cpp.i:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/people.cpp.i
+.PHONY : src/people.cpp.i
+
+src/people.s: src/people.cpp.s
+
+.PHONY : src/people.s
+
+# target to generate assembly for a file
+src/people.cpp.s:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/people.cpp.s
+.PHONY : src/people.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... solution"
-	@echo "... src/Euler.o"
-	@echo "... src/Euler.i"
-	@echo "... src/Euler.s"
-	@echo "... src/Inout.o"
-	@echo "... src/Inout.i"
-	@echo "... src/Inout.s"
-	@echo "... src/People.o"
-	@echo "... src/People.i"
-	@echo "... src/People.s"
+	@echo "... src/euler.o"
+	@echo "... src/euler.i"
+	@echo "... src/euler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/people.o"
+	@echo "... src/people.i"
+	@echo "... src/people.s"
 .PHONY : help
 
 

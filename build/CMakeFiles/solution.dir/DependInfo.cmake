@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yhqiu/pa1/src/Euler.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/Euler.cpp.o"
-  "/home/yhqiu/pa1/src/Inout.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/Inout.cpp.o"
-  "/home/yhqiu/pa1/src/People.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/People.cpp.o"
+  "/home/yhqiu/pa1/src/euler.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/euler.cpp.o"
   "/home/yhqiu/pa1/src/main.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/main.cpp.o"
+  "/home/yhqiu/pa1/src/people.cpp" "/home/yhqiu/pa1/build/CMakeFiles/solution.dir/src/people.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
