@@ -1,5 +1,6 @@
-using:
-    [bash run.sh]  [0-6]
-        OR  
-    [. test1.sh]  [0-6]
-    to run the program.
+- **Introduction:** This project uses Hierholzer algorithm to find Euler path and Euler circuit.
+
+- **Usage Example:**
+> . run.sh
+
+> . run.sh 3
